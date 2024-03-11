@@ -1,4 +1,17 @@
-html {
-  height: 100%;
-  width: 100%;
+h1{
+  color: #ff40ff ; 
+}
+
+body{
+  background-color: lightblue;
+}
+nav{
+width: 100px;
+border: 10px solid black;
+padding: none;
+margin: 10px;
+  background:pink
+}
+p{
+  font-family: sans-serif;
 }
