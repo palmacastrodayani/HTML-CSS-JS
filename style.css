@@ -1,5 +1,5 @@
 h1{
-  color: #ff2600 ; 
+  color: #000000 ; 
 text-align: center;
 } 
 h2{
@@ -7,7 +7,7 @@ text-align: center;
 }
 
 body{
-  background-color: lightblue;
+  background-color: #f1c9fe;
 }
 nav{
 width: 200px;
