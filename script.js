@@ -1,20 +1,31 @@
 // Definición de variables
-var userName = "Iris"; // Variable de tipo string para almacenar el nombre de usuario
-var userAge = 17; // Variable de tipo entero para almacenar la edad del usuario
-var isStudent = true; // Variable de tipo booleano para indicar si el usuario es estudiante o no
+var userName = "Iris"; 
+var userAge = 17; 
+var isStudent = true; 
 
-// Función para mostrar un saludo personalizado
 function greetUser(name, age) {
-    var greeting = "Hello, " + name + "!"; // Concatenación de strings para generar el saludo
-    if (age > 18) {
-        greeting += " You're an adult!";
+    var greeting = "¡Hola, " + name + "! "; 
+    if (age >= 18) {
+        greeting += "¡Eres mayor de edad!";
     } else {
-        greeting += " You're still a minor.";
+        greeting += "¡Eres menor de edad!";
     }
     return greeting;
 }
 
-// Llamada a la función greetUser y mostrar el resultado en la página
-document.getElementById("output").innerText = greetUser(userName, userAge);
+var doubleAge = userAge * 2;
 
-  
+if (isStudent) {
+    console.log("¡Eres un estudiante!");
+} else {
+    console.log("No eres un estudiante.");
+}
+
+if (userAge >= 18 && isStudent) {
+    console.log("¡Eres mayor de edad y estudiante!");
+} else {
+    console.log("No cumples con los requisitos.");
+}
+
+console.log("El doble de tu edad es: " + doubleAge);
+document.getElementById("output").innerText += "\nEl doble de tu edad es: " + doubleAge;
