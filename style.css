@@ -1,31 +1,51 @@
-h1{
-  color: #000000 ; 
-text-align: center;
-} 
-h2{
-text-align: center;
+h1 {
+  color: #000000;
+  text-align: center;
 }
 
-body{
+h2 {
+  text-align: center;
+}
+
+body {
   background-color: #f1c9fe;
 }
-nav{
-width: 200px;
-border: 10px solid black;
-padding: none;
-margin: 10px;
-margin-left:auto;
-margin-right:auto;
-  background:pink
+
+nav {
+  width: 200px;
+  border: 10px solid black;
+  padding: none;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background: pink
 }
-p{
+
+p {
   font-family: sans-serif;
   text-align: center;
-} 
-li{
-  font-size:30px;
+}
+
+li {
+  font-size: 30px;
   text-align: center;
 }
-img{
+
+img {
   border-radius: 30%;
+}
+
+#massages {
+  border: 10px solid hotpink;
+  background-color: pink;
+  width: 400px;
+  margin: 0px auto 0px auto; /* TOP RIGHT BOTTOM LEFT */
+  /* margin: 0 auto; to the container.  */
+  height: 450px;
+  border-radius: 40px;
+}
+
+massages-form {
+  border: 1px solid red;
+  
 }
